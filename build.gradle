@@ -26,12 +26,12 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
-    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.5.2', ext: 'pom'
+    compile('org.codehaus.groovy:groovy-all:2.5.0')
     compileOnly('org.projectlombok:lombok')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile ('org.spockframework:spock-core:1.2-RC1-groovy-2.5')
     testCompile ('org.spockframework:spock-spring:1.2-RC1-groovy-2.5')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+
 
 
 }
